@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1C81132C2828DF00843B0F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C81122C2828DF00843B0F /* Food.swift */; };
+		CE1C81152C282B6E00843B0F /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C81142C282B6E00843B0F /* Restaurant.swift */; };
+		CE1C81172C283D6600843B0F /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C81162C283D6600843B0F /* RestaurantView.swift */; };
+		CE1C81192C2848D500843B0F /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C81182C2848D500843B0F /* Navigation.swift */; };
+		CE1C811B2C2854A100843B0F /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C811A2C2854A100843B0F /* Ingredient.swift */; };
+		CE2D2EF92C315F5C00DBF255 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D2EF82C315F5C00DBF255 /* FoodView.swift */; };
+		CE6EE2512C1EEFFC00E050DA /* Deliverfly_Karen_KhachatryanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EE2502C1EEFFC00E050DA /* Deliverfly_Karen_KhachatryanApp.swift */; };
+		CE6EE2552C1EEFFD00E050DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6EE2542C1EEFFD00E050DA /* Assets.xcassets */; };
+		CE6EE2592C1EEFFD00E050DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6EE2582C1EEFFD00E050DA /* Preview Assets.xcassets */; };
+		CE6EE2602C1EF10700E050DA /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EE25F2C1EF10700E050DA /* SplashView.swift */; };
+		CE6EE2622C1EF93700E050DA /* RestaurantPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EE2612C1EF93700E050DA /* RestaurantPreview.swift */; };
+		CE6EE2642C1F07C800E050DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EE2632C1F07C800E050DA /* HomeView.swift */; };
+		CE6EE2682C1F179000E050DA /* FoodPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EE2672C1F179000E050DA /* FoodPreview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE1C81122C2828DF00843B0F /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		CE1C81142C282B6E00843B0F /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		CE1C81162C283D6600843B0F /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		CE1C81182C2848D500843B0F /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		CE1C811A2C2854A100843B0F /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		CE2D2EF82C315F5C00DBF255 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		CE6EE24D2C1EEFFC00E050DA /* Deliverfly-Karen-Khachatryan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deliverfly-Karen-Khachatryan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6EE2502C1EEFFC00E050DA /* Deliverfly_Karen_KhachatryanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deliverfly_Karen_KhachatryanApp.swift; sourceTree = "<group>"; };
+		CE6EE2542C1EEFFD00E050DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE6EE2562C1EEFFD00E050DA /* Deliverfly_Karen_Khachatryan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Deliverfly_Karen_Khachatryan.entitlements; sourceTree = "<group>"; };
+		CE6EE2582C1EEFFD00E050DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE6EE25F2C1EF10700E050DA /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		CE6EE2612C1EF93700E050DA /* RestaurantPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantPreview.swift; sourceTree = "<group>"; };
+		CE6EE2632C1F07C800E050DA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE6EE2672C1F179000E050DA /* FoodPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPreview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6EE24A2C1EEFFC00E050DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE6EE2442C1EEFFC00E050DA = {
+			isa = PBXGroup;
+			children = (
+				CE6EE24F2C1EEFFC00E050DA /* Deliverfly-Karen-Khachatryan */,
+				CE6EE24E2C1EEFFC00E050DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6EE24E2C1EEFFC00E050DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6EE24D2C1EEFFC00E050DA /* Deliverfly-Karen-Khachatryan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6EE24F2C1EEFFC00E050DA /* Deliverfly-Karen-Khachatryan */ = {
+			isa = PBXGroup;
+			children = (
+				CE1C81122C2828DF00843B0F /* Food.swift */,
+				CE6EE2502C1EEFFC00E050DA /* Deliverfly_Karen_KhachatryanApp.swift */,
+				CE6EE2542C1EEFFD00E050DA /* Assets.xcassets */,
+				CE6EE2562C1EEFFD00E050DA /* Deliverfly_Karen_Khachatryan.entitlements */,
+				CE6EE2572C1EEFFD00E050DA /* Preview Content */,
+				CE6EE25F2C1EF10700E050DA /* SplashView.swift */,
+				CE6EE2612C1EF93700E050DA /* RestaurantPreview.swift */,
+				CE6EE2632C1F07C800E050DA /* HomeView.swift */,
+				CE6EE2672C1F179000E050DA /* FoodPreview.swift */,
+				CE1C81142C282B6E00843B0F /* Restaurant.swift */,
+				CE1C81162C283D6600843B0F /* RestaurantView.swift */,
+				CE1C81182C2848D500843B0F /* Navigation.swift */,
+				CE1C811A2C2854A100843B0F /* Ingredient.swift */,
+				CE2D2EF82C315F5C00DBF255 /* FoodView.swift */,
+			);
+			path = "Deliverfly-Karen-Khachatryan";
+			sourceTree = "<group>";
+		};
+		CE6EE2572C1EEFFD00E050DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE6EE2582C1EEFFD00E050DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6EE24C2C1EEFFC00E050DA /* Deliverfly-Karen-Khachatryan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6EE25C2C1EEFFD00E050DA /* Build configuration list for PBXNativeTarget "Deliverfly-Karen-Khachatryan" */;
+			buildPhases = (
+				CE6EE2492C1EEFFC00E050DA /* Sources */,
+				CE6EE24A2C1EEFFC00E050DA /* Frameworks */,
+				CE6EE24B2C1EEFFC00E050DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deliverfly-Karen-Khachatryan";
+			productName = "Deliverfly-Karen-Khachatryan";
+			productReference = CE6EE24D2C1EEFFC00E050DA /* Deliverfly-Karen-Khachatryan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6EE2452C1EEFFC00E050DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CE6EE24C2C1EEFFC00E050DA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CE6EE2482C1EEFFC00E050DA /* Build configuration list for PBXProject "Deliverfly-Karen-Khachatryan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE6EE2442C1EEFFC00E050DA;
+			productRefGroup = CE6EE24E2C1EEFFC00E050DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6EE24C2C1EEFFC00E050DA /* Deliverfly-Karen-Khachatryan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6EE24B2C1EEFFC00E050DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6EE2592C1EEFFD00E050DA /* Preview Assets.xcassets in Resources */,
+				CE6EE2552C1EEFFD00E050DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6EE2492C1EEFFC00E050DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1C81132C2828DF00843B0F /* Food.swift in Sources */,
+				CE6EE2622C1EF93700E050DA /* RestaurantPreview.swift in Sources */,
+				CE1C811B2C2854A100843B0F /* Ingredient.swift in Sources */,
+				CE2D2EF92C315F5C00DBF255 /* FoodView.swift in Sources */,
+				CE6EE2512C1EEFFC00E050DA /* Deliverfly_Karen_KhachatryanApp.swift in Sources */,
+				CE1C81172C283D6600843B0F /* RestaurantView.swift in Sources */,
+				CE1C81152C282B6E00843B0F /* Restaurant.swift in Sources */,
+				CE6EE2642C1F07C800E050DA /* HomeView.swift in Sources */,
+				CE1C81192C2848D500843B0F /* Navigation.swift in Sources */,
+				CE6EE2682C1F179000E050DA /* FoodPreview.swift in Sources */,
+				CE6EE2602C1EF10700E050DA /* SplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE6EE25A2C1EEFFD00E050DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE6EE25B2C1EEFFD00E050DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CE6EE25D2C1EEFFD00E050DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Deliverfly-Karen-Khachatryan/Deliverfly_Karen_Khachatryan.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Deliverfly-Karen-Khachatryan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "karenkhachatryan.Deliverfly-Karen-Khachatryan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE6EE25E2C1EEFFD00E050DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Deliverfly-Karen-Khachatryan/Deliverfly_Karen_Khachatryan.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Deliverfly-Karen-Khachatryan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "karenkhachatryan.Deliverfly-Karen-Khachatryan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6EE2482C1EEFFC00E050DA /* Build configuration list for PBXProject "Deliverfly-Karen-Khachatryan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6EE25A2C1EEFFD00E050DA /* Debug */,
+				CE6EE25B2C1EEFFD00E050DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6EE25C2C1EEFFD00E050DA /* Build configuration list for PBXNativeTarget "Deliverfly-Karen-Khachatryan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6EE25D2C1EEFFD00E050DA /* Debug */,
+				CE6EE25E2C1EEFFD00E050DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6EE2452C1EEFFC00E050DA /* Project object */;
+}
